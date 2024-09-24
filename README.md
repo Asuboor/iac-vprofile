@@ -1,15 +1,3 @@
-# Terraform code 
-
-## Maintain vpc & eks with terraform for vprofile project
-
-## Tools required
-Terraform version 1.6.3
-
-### Steps
-* terraform init
-* terraform fmt -check
-* terraform validate
-* terraform plan -out planfile
-* terraform apply -auto-approve -input=false -parallelism=1 planfile
-####
-#####
+# Overview
+This project demonstrates the deployment of the Java-based VProfile application using GitOps practices. It integrates continuous deployment by managing infrastructure and application configurations through Git, ensuring automated updates, version control, and streamlined deployments, enhancing consistency, reliability, and operational efficiency in cloud environments.
+For detailed explanation, visit my notion page https://abdulsuboor.notion.site/GitOps-Project-10abdf64ccc680fca5dde0c575cf9402?pvs=4
